@@ -16,7 +16,7 @@ Make sure that, prior to importing anything, you copy the realm that you will be
 Before you start, you will have to edit the script. Preferably, edit it with the Powershell ISE or with Notepad++ or some other editor that highlights Powershell syntax.
 
 Scroll down to near the bottom of the script where you will see a block of text as such:
-
+<pre>
 #############################################################################
 #############   E D I T   Y O U R   F I L N A M E S   H E R E   #############
 #############################################################################
@@ -26,7 +26,7 @@ Scroll down to near the bottom of the script where you will see a block of text 
 &lt;##&gt; $New_XML_File = "Pathfinder_Spells.rwexport"
 ####
 #############################################################################
-
+</pre>
 In this block of text, edit the filenames as you please.
 You will have to export your own structure file, and download your own spreadsheet.
 
