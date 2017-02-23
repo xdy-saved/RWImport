@@ -21,9 +21,9 @@ Scroll down to near the bottom of the script where you will see a block of text 
 #############   E D I T   Y O U R   F I L N A M E S   H E R E   #############
 #############################################################################
 ####
-<##> $Structure_File = "Pathfinder_Structure_Augmented.rwexport"
-<##> $Spell_Spreadsheet = "spell_full - Updated 29Jan2017 - sanitized.csv"
-<##> $New_XML_File = "Pathfinder_Spells.rwexport"
+&lt;##&gt; $Structure_File = "Pathfinder_Structure_Augmented.rwexport"
+&lt;##&gt; $Spell_Spreadsheet = "spell_full - Updated 29Jan2017 - sanitized.csv"
+&lt;##&gt; $New_XML_File = "Pathfinder_Spells.rwexport"
 ####
 #############################################################################
 
@@ -33,7 +33,7 @@ You will have to export your own structure file, and download your own spreadshe
 Known issues:
 In the spreadsheet that you will download, Detect Evil has an error in the HTML code. Detect Evil is in row 136, and the error is in column S. Scroll through to the very end of the text in that cell, and you will see it end with the following: &lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;&lt;/table&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
 
-Change that to: &lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;&lt;/table&gt;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+Change that to: &lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;&lt;/table&gt;&lt;/p&gt;
 
 Even when you do this, there will be a set of table headers that are offset one cell to the right. You can edit this after the import.
 
